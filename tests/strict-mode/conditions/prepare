@@ -1,0 +1,10 @@
+# /strict-mode/conditions/prepare
+
+# We define a dummy function. Depending on the place where it is
+# called, it either prints nothing and returns 1 or prints "foo" and
+# returns 0.
+
+foo () {
+    false
+    echo foo
+}

@@ -1,0 +1,5 @@
+# /strict-mode/prepare
+
+# We can assume that most tests under the 'strict-mode' directory will
+# require the strict mode to be on..
+set -e
