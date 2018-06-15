@@ -1,0 +1,4 @@
+f () {
+    echo stdout
+    echo errout >&2
+}
